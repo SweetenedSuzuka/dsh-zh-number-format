@@ -43,7 +43,14 @@ DeepSeek Harness的界面默认沿用英语的计数习惯，且未跟进标准�
 
 ## 安装方法
 
-- 把代码目录下载到 DSH profile 的 `vendor/` 目录，再在该 profile 的 `pnpm-workspace.yaml` 里把它列为 workspace 成员，随后在 `package.json` 中把写入 `workspace:*` 以来，并加入 `dsh.profile.bundles`。
+- 使用 npm 安装：
+  - 直接在 DeepSeek Harness 桌面版的安装插件窗口中填写 `dsh-zh-number-formatdsh` 即可安装
+  - 或者使用命令行执行：
+    - 桌面版：`plugin --profile desktop add dsh-zh-number-formatdsh@latest`
+    - Web端：`plugin --profile web add dsh-zh-number-formatdsh@latest`
+    - 其它配置：`plugin --profile <profile> add dsh-zh-number-formatdsh@latest`
+- 手动安装为本地插件：
+  - 把代码目录下载到 DSH profile 的 `vendor/` 目录，再在该 profile 的 `pnpm-workspace.yaml` 里把它列为 workspace 成员，随后在 `package.json` 中把写入 `workspace:*` 以来，并加入 `dsh.profile.bundles`。
 
 ## 文件结构
 
