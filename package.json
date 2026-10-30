@@ -1,7 +1,10 @@
 {
-  "name": "@local/dsh-zh-number-format",
+  "name": "dsh-zh-number-format",
   "version": "1.0.0",
-  "private": true,
+  "description": "DSH插件：将DSH的数字显示格式改为中文的显示格式（DSH plugin: format numbers in Chinese numerals）",
+  "license": "GPL-2.0",
+  "author": "SweetenedSuzuka <suzuka.nagami@outlook.com>",
+  "repository": { "type": "git", "url": "git+https://github.com/SweetenedSuzuka/dsh-zh-number-format.git" },
   "type": "module",
   "exports": {
     ".": "./index.js",
