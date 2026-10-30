@@ -5,7 +5,7 @@
 // 「number.thousand / number.million / tokens.thousand / tokens.million」是三位分节模板，「number.groupSeparator」提供千分位逗号。
 
 window.__ModuleLoader__.load({
-	id: '@local/dsh-zh-number-format',
+	id: 'dsh-zh-number-format',
 	factory() {
 		'use strict';
 
