@@ -1,0 +1,3 @@
+- insert:
+    - id: dsh-zh-number-format
+      name: '@local/dsh-zh-number-format'

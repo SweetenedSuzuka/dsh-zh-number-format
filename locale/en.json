@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Chinese Number Format",
+    "description": "Render DSH counts the Chinese way: K/M compact notation and three-digit comma grouping become 万/亿/兆 (兆 = 10^12), and token in its model-unit sense becomes “词元” (tok/s应为词元/秒)."
+  }
+}
